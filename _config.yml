@@ -14,25 +14,24 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "mdEditor - the friendly metadata editor"
+keywords:    "metadata, mdJSON, ADIwg, open source, ISO, 19115, FGDC, CSDGM"
+description: "A web application for authoring and editing metadata, for both projects and datasets."
+source_link: "https://github.com/adiwg/mdEditor"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: #UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
 colors:
   black:     '#111111'
   white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
+  blue:      '#446B92'
+  green:     '#93c54b'
+  purple:    '#6B56A5'
+  orange:    '#f47c3c'
+  turquoise: '#29abe0'
 
 kramdown:
   auto_ids:  false
-
