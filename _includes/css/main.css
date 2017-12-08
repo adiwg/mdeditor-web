@@ -355,3 +355,9 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+/* icons */
+a span.fa {
+  margin-left: .25em;
+  margin-right: .25em;
+}
