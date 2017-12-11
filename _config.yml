@@ -34,4 +34,4 @@ colors:
   turquoise: '#29abe0'
 
 kramdown:
-  auto_ids:  false
+  auto_ids:  true

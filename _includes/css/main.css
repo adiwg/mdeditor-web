@@ -361,3 +361,20 @@ a span.fa {
   margin-left: .25em;
   margin-right: .25em;
 }
+
+/* quotes */
+.container .quote {
+  font-size: 1.5em;
+  margin: auto;
+  opacity: .8;
+  width: 80%
+}
+
+.container .faqs p {
+  margin-top: 1em;
+}
+
+.container .faqs hr {
+  border-color: inherit;
+  opacity: .6;
+}
