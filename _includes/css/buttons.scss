@@ -1,0 +1,77 @@
+/* https://github.com/codyogden/press-css */
+.press {
+  box-sizing: border-box;
+  background-color: var(--p);
+  border: 2px solid var(--p);
+  color: var(--c) !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  transition: background 0.15s linear
+}
+
+{% for c in site.colors %}
+.press-{{ c[0] }} {
+  --p: {{ c[1] }};
+  --c: #fff;
+  --h: #{lighten({{ c[1] }}, 10)};
+  --a: #{darken({{ c[1] }}, 10)};
+}
+{% endfor %}
+
+.press-pill {
+  border-radius: 20px / 50%
+}
+
+.press-round {
+  border-radius: 8px
+}
+
+.press-circle {
+  border-radius: 50%;
+  height: 2.5em;
+  padding: 0;
+  width: 2.5em;
+  white-space: nowrap
+}
+
+.press-raised {
+  box-shadow: 2px 3px 20px 3px rgba(51, 51, 51, 0.4)
+}
+
+.press:disabled {
+  cursor: not-allowed;
+  opacity: 0.3
+}
+
+.press-ghost {
+  color: var(--p);
+  background-color: transparent
+}
+
+.press:hover:not(:disabled) {
+  background-color: var(--h)
+}
+
+.press:active:not(:disabled) {
+  background-color: var(--a)
+}
+
+.press-ghost:hover:not(:disabled) {
+  color: var(--c)
+}
+
+.press-sm {
+  font-size: 0.8em
+}
+
+.press-lg {
+  font-size: 1.25em
+}
+
+.press-xl {
+  font-size: 1.5em
+}

@@ -35,3 +35,6 @@ colors:
 
 kramdown:
   auto_ids:  true
+
+sass:
+  sass_dir: _sass
