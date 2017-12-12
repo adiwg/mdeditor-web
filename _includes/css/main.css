@@ -370,11 +370,18 @@ a span.fa {
   width: 80%
 }
 
-.container .faqs p {
+/* FAQs  */
+.container .faqs p,
+.container .faqs img {
   margin-top: 1em;
 }
 
 .container .faqs hr {
   border-color: inherit;
   opacity: .6;
+}
+
+.browser-links a {
+  display: inline-block;
+  margin: 3px;
 }
